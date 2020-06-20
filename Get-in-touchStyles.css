@@ -4,7 +4,7 @@
 }
 html {
     font-family: 'Berkshire Swash', cursive;
-    background-image: url("images/Background1.jpg");
+    background-image: url("Images/Background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -36,7 +36,8 @@ input[type=submit]:hover {
 }
 
 .form-item input:hover,
-.form-item textarea:hover {
+.form-item textarea:hover,
+.form-item email {
     border: 2px solid #FA4224;
 }
 /* Add a background color and some padding around the form */
