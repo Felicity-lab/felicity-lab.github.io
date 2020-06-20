@@ -1,0 +1,101 @@
+@import url(https://fonts.google.com/specimen/Sriracha?selection.family=Raleway|Sriracha&sidebar.open);
+style
+* {
+  box-sizing: border-box;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("images/Background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ body {
+          margin: 0;
+          /* background-color: beige; */
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          /* background-image: url("images/Background1.jpg"); */
+        }
+header{
+    text-align: center;
+    background-color: royalblue;
+   padding: 10px;
+
+}
+#intro-heading.style{
+    /* justify-content: center; */
+    color: steelblue;
+    background-color: rgb(36, 7, 116);
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+    font-size: x-large;
+    /* text-align: center; */
+    padding: 10px;
+}
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    background-color: #dae8f0;
+    color: royalblue;
+
+    align-items: center;
+    align-content: space-around;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.navbar {
+    width: 100%;
+    background-color: #dae8f0;
+    overflow: auto;
+  }
+  .navbar a {
+    float: left;
+    padding: 12px;
+    /* color: white; */
+    text-decoration: none;
+    font-size: 17px;
+    width: 16.66%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+a {
+    color: royalblue;
+    text-decoration: none;
+    padding: 5px;
+}
+    
+a:hover {
+    color: #0f0644;
+    border-bottom: 2px solid #0f0644;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+footer {
+    text-align: center;
+    background-color: royalblue;
+    padding: 30px;
+    color: #fff;
+}

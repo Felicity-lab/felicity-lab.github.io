@@ -1,0 +1,97 @@
+/* @import url(<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">) */
+*{
+  box-sizing: border-box;
+}
+html {
+    font-family: 'Berkshire Swash', cursive;
+    background-image: url("images/Background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Style the header */
+header{
+  text-align: center;
+  background-color: royalblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin: 0 auto;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(225, 97, 65);
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 8px 10px; /* Some padding */ 
+    border: 1px solid navy; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    /*margin-top: 10px 0; /* Add a top margin */
+    /*margin-bottom: 16px; /* Bottom margin */
+    resize: both; /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin: 8px 0;
+    
+    }
+
+    input[type=number], select, textarea {
+      width: 100%; /* Full width */
+      padding: 8px 10px; /* Some padding */ 
+      border: 1px solid navy; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      /*margin-top: 10px 0; /* Add a top margin */
+      /*margin-bottom: 16px; /* Bottom margin */
+      resize: both; /* Allow the user to vertically resize the textarea (not horizontally) */
+      margin: 8px 0;
+      
+      }
+      input[type=email], select, textarea {
+        width: 100%; /* Full width */
+        padding: 8px 10px; /* Some padding */ 
+        border: 1px solid navy; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        /*margin-top: 10px 0; /* Add a top margin */
+        /*margin-bottom: 16px; /* Bottom margin */
+        resize: both; /* Allow the user to vertically resize the textarea (not horizontally) */
+        margin: 8px 0;
+        
+        }
+        img {
+          display: center;
+          /* object-fit: scale-down; */
+          object-position: center;
+          margin: 0 auto;
+          padding: 5px;
+      }
+  form {
+max-width: 600px;
+margin: 0 auto;
+
+  }
+  
