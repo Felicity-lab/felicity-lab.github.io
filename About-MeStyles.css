@@ -156,7 +156,7 @@ float: left;
     /* Medium devices (tablets, 768px and up)*/
     @media (max-width: 768px) {
       body {
-          background-image: url("Images/sun-Aspiration2.jpg");
+        background-color: clear;
       }
     }
     
