@@ -31,6 +31,7 @@ h1 {
 }
 
 h2 {
+ 
     font-size: 3rem;
     line-height: 3rem;
     color: rgb(255, 255, 255);
@@ -74,7 +75,9 @@ h2 {
     animation: mymove 5s infinite;
   }
   
-  #div1 {animation-timing-function: linear;}
+  #div1 {
+    text-align: center;
+    animation-timing-function: linear;}
   #div2 {animation-timing-function: ease;}
   #div3 {animation-timing-function: ease-in;}
   #div4 {animation-timing-function: ease-out;}
@@ -122,8 +125,12 @@ float: left;
     width: 10px;
 
   }
-  .divers2{
-    float: right;
+  .divers3{
+    display: flex;
+    flex-direction: column;
+   align-content: flex-end;
+   justify-content: flex-end;
+   max-width: 50%;
   }
   /* .attributes{ */
     /* float:inline-end; */
