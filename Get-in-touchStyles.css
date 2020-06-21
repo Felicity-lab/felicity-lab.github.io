@@ -12,6 +12,7 @@ html {
 }
 
 /* Style the header */
+
 header{
   text-align: center;
   background-color: royalblue;
@@ -19,7 +20,7 @@ header{
   text-align: center;
   font-size: 35px;
   color: white;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
