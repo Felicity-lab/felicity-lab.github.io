@@ -95,8 +95,37 @@ max-width: 600px;
 margin: 0 auto;
 
   }
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+/* @media screen and (max-width: 600px) { */
+  /* .column { */
+    /* width: 100%; */
+  /* } */
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 100px) { 
+  body {
+      background-color: green;
+      width: 100%;
   }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  body {
+      background-image: url("Images/sun-Aspiration2.jpg");
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media  screen and (max-width: 992px) {
+  body {
+      background-color: orange;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  body {
+      background-color: clear;
+  }
+}
